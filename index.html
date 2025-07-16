@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pendaftaran</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./aset/styles.css">
+</head>
+
+<body>
+
+</body>
+<div id="notif"></div>
+<header>
+    <div class="header-content d-flex align-items-center justify-content-between px-4">
+        <img src="https://smkn5batam.sch.id/wp-content/uploads/2023/02/tkj.png" alt="Logo Kiri">
+        <div class="header-title text-align-center">SMKN 5 BATAM <br> Register LKS TKJ</div>
+        <img src="https://smkn5batam.sch.id/wp-content/uploads/2023/02/tkj.png" alt="Logo Kanan">
+    </div>
+</header>
+
+<div class="d-flex justify-content-center align-items-center pt-4 p-2">
+    <form action="" class="card p-4" id="pendaftaranForm" style="width: 95%;">
+        <div class=" mb-3">
+            <label for="nama_lengkap" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" name="nama_lengkap" id="nama_lengkap" placeholder="Qoirul iman"
+                required>
+        </div>
+        <div class="mb-3">
+            <label for="nama_panggilan" class="form-label">Nama panggilan</label>
+            <input type="text" class="form-control" name="nama_panggilan" id="nama_panggilan" placeholder="iman"
+                required>
+        </div>
+
+        <div class="mb-3">
+            <label for="jenis_kelamin" class="form-label">Jenis Kelamin</label>
+            <select id="jenis_kelamin" class="form-select" name="jenis_kelamin" required>
+                <option value="">-- Pilih Jenis Kelamin -- </option>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="kelas" class="form-label">Kelas</label>
+            <select class="form-select" id="kelas" name="kelas" required>
+                <option value="">-- Pilih Kelas -- </option>
+                <option value="X TKJ 1">X TKJ 1</option>
+                <option value="X TKJ 2">X TKJ 2</option>
+                <option value="XI TKJ 1">XI TKJ 1</option>
+                <option value="XI TKJ 2">XI TKJ 2</option>
+                <option value="XI TKJ 3">XI TKJ 3</option>
+            </select>
+        </div>
+        <div class="mb-3 ">
+            <label for="tempat_lahir" class="form-label">Tempat Tanggal Lahir</label>
+            <div class="input-group">
+                <input type="text" class="form-control" name="tempat_lahir" id="tempat_lahir" placeholder="Batam"
+                    required>
+                <input type="text" class="form-control" name="tanggal_lahir" id="tanggal_lahir" placeholder="30-01-2010"
+                    required>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="no_hp" class="form-label">no hp</label>
+            <input type="number" class="form-control" name="no_hp" id="no_hp" placeholder="628xxxxxxxxx" required>
+        </div>
+        <button type="submit" id="submit" class="btn btn-primary">daftar</button>
+    </form>
+</div>
+
+<footer class="d-flex align-items-center justify-content-center pt-2
+">
+    <p>© Copyright by <br> <a href="#" id="link" target="_blank">Qoirul Iman Nurianto <br> 2025</a></p>
+</footer>
+
+<script src="./aset/script.js"> </script>
+
+
+</html>
