@@ -24,7 +24,10 @@ form.addEventListener("submit", async function (e) {
 
     if (response.ok) {
       notif.style.display = "block";
-      notif.innerHTML = `✅ Berhasil mendaftar`;
+      notif.innerHTML = `Selamat, Anda berhasil mendaftar. Silakan masuk ke discord lks. <br>
+    <a href="https://discord.gg/MgfGFF3Mqz" class=" d-flex align-items-center jus" target="_blank">Klik di sini untuk
+        info lebih
+        lanjut.</a>`;
       form.reset();
     } else {
       notif.style.display = "block";
@@ -38,9 +41,5 @@ form.addEventListener("submit", async function (e) {
     notif.innerHTML = `⚠️ Error: ${error.message}`;
   } finally {
     submitBtn.textContent = "Submit";
-
-    setTimeout(() => {
-      notif.style.display = "none";
-    }, 3000);
   }
 });
