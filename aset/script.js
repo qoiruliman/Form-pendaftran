@@ -28,7 +28,7 @@ form.addEventListener("submit", async function (e) {
     <a href="https://chat.whatsapp.com/FwvY4XXvSWmLyYAQzoW8Su" class=" d-flex align-items-center jus" target="_blank">Klik di sini untuk
         info lebih
         lanjut.</a>`;
-      //   notif.innerHTML = `Selamat, Anda berhasil mendaftar. Silakan masuk ke discord lks. <br>
+      //   notif.innerHTML = `Selamat, Anda berhasil mendaftar. Silakan masuk ke grub coding. <br>
       // <a href="https://discord.gg/MgfGFF3Mqz" class=" d-flex align-items-center jus" target="_blank">Klik di sini untuk
       //     info lebih
       //     lanjut.</a>`;
