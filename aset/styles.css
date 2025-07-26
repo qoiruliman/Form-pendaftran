@@ -56,6 +56,17 @@
      text-decoration: underline;
  }
 
+ #pendaftaranForm {
+     width: 95%;
+ }
+
+ @media (min-width: 768px) {
+     #pendaftaranForm {
+         width: 50%;
+     }
+ }
+
+
  @media (max-width: 400px) {
 
      .header-content img {

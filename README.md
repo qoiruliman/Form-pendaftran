@@ -1,3 +1,3 @@
 # form_pendaftran
 
-buat daftar eskul
+buat daftar es
